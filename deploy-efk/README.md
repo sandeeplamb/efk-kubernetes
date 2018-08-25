@@ -17,3 +17,7 @@ volumeClaimTemplates:
 ## Install EFK Stack
 
 `kubectl apply -f .`
+
+## Find Kibana EndPoint
+
+`kubectl cluster-info`
